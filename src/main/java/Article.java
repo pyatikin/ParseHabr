@@ -14,16 +14,4 @@ public class Article {
         this.topics = topics;
         this.label = label;
     }
-
-    @Override
-    public String toString() {
-        return "Article{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", timeToRead='" + timeToRead + '\'' +
-                ", views='" + views + '\'' +
-                ", topics='" + topics + '\'' +
-                ", label='" + label + '\'' +
-                '}';
-    }
 }
